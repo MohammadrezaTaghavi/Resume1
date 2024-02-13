@@ -31,6 +31,7 @@ body{
     min-height: 100vh;
     color: #fff;
     font-family: "Inter Regular";
+    line-height: 1.2rem;
 }
 a{
     text-decoration: none;
