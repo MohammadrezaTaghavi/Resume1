@@ -1,0 +1,91 @@
+@font-face{
+    font-family: "Inter Bold";
+    src: url("../fonts/Inter-Bold.ttf");
+}
+@font-face{
+    font-family: "Inter Regular";
+    src: url("../fonts/Inter-Regular.ttf");
+}
+@font-face{
+    font-family: "Inter SemiBold";
+    src: url("../fonts/Inter-SemiBold.ttf");
+}
+@font-face{
+    font-family: "Inter";
+    src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    font-family: "Inter Regular";
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    text-align: center;
+    background-color: #212121;
+    padding: 2rem;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile__img{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100%;
+    background: url(../images/image.jpg) no-repeat center ;
+    background-size: contain;
+}
+.prifile__name{
+    margin-top: 2rem;
+    font-family: "Inter SemiBold";
+    font-size: 1.5rem;
+}
+.profile__place{
+    margin: 1rem 0 1.5rem 0;
+}
+.profile__content{
+    margin-bottom: 1rem;
+}
+.links__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile__link{
+    width: 22rem;
+    height: 3rem;
+    background-color: #343434;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: "Inter SemiBold"; */
+    font-weight: 400;
+    transition: background-color 250ms ease 30ms;
+}
+.profile__link:last-child{
+    margin-bottom: 0;
+}
+.profile__link:hover{
+    background-color: #2a2a2a;
+}

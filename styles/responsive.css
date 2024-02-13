@@ -1,0 +1,40 @@
+@media screen and (min-width:1400px){
+    /* .container{
+        width: 1250px;
+    } */
+}
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+
+@media screen and (max-width: 992px) {
+}
+
+
+@media screen and (max-width: 768px) {
+}
+
+
+@media screen and (max-width: 576px) {
+    .profile__img{
+        width: 10rem;
+        height: 10rem;
+    }
+    .container{
+        width: 300px;
+    }
+    .profile__link{
+        width: 17rem;
+        height: 2.7rem;
+    }
+}
+
+
+@media screen and (max-width: 410px) {
+    .container{
+        width: 270px;
+    }
+}
