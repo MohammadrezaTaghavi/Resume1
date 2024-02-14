@@ -40,4 +40,7 @@
     .container{
         width: 270px;
     }
+    .prifile__name{
+    font-size: 1.4rem;
+    }
 }

@@ -55,9 +55,10 @@ a{
     background-size: contain;
 }
 .prifile__name{
-    margin-top: 2rem;
+    margin-top: 2.2rem;
     font-family: "Inter SemiBold";
     font-size: 1.5rem;
+    line-height: 1.7rem;
 }
 .profile__place{
     margin: 1rem 0 1.5rem 0;
@@ -80,8 +81,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* font-family: "Inter SemiBold"; */
-    font-weight: 400;
+    font-family: "Inter SemiBold";
     transition: background-color 250ms ease 30ms;
 }
 .profile__link:last-child{
